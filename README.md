@@ -30,25 +30,16 @@ It allows multiple users to connect and chat live with instant updates, message 
 ```bash
 git clone https://github.com/Prince-Singh-Dev/EchoRoom.git
 cd EchoRoom
+make a Folder of nodeServer and move index.js file in that 
+cd nodeServer
+npm init
+npm i socket.io
+npm i nodemon
 nodemon index.js on terminal
 Start Local server run on Port 5500
 Run Two tabs with http://127.0.0.1/5500
 ```
 ---
-
-EchoRoom/
-├── nodeServer
-    └── index.js           # Node.js + Socket.IO server
-├── index.html         # Frontend UI
-├── js/
-│   └── client.js      # Client-side socket logic
-├── css/
-│   └── style.css      # All UI styling
-├── sounds/
-│   └── ting.mp3       # Incoming message alert
-└── Output_Image/
-    └── Images of Running 
-├── chat.png           # Logo of Chat app
 
 🙌 Author
 👨‍💻 Prince Singh
