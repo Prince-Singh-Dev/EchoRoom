@@ -1,0 +1,115 @@
+/* Font and Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Background */
+body {
+    height: 100vh;
+    background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+    color: #e0e0e0;
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+}
+
+/* Chat Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+}
+
+/* Message Bubbles */
+.message {
+    padding: 12px 16px;
+    margin: 10px 0;
+    max-width: 60%;
+    border-radius: 12px;
+    position: relative;
+    line-height: 1.4;
+    word-wrap: break-word;
+    animation: pop 0.2s ease-in;
+}
+
+@keyframes pop {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.left {
+    background-color: #333;
+    color: #e0e0e0;
+    float: left;
+    clear: both;
+    border-top-left-radius: 0;
+}
+
+.right {
+    background-color: #0078ff;
+    color: white;
+    float: right;
+    clear: both;
+    border-top-right-radius: 0;
+}
+
+.center {
+    clear: both;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+/* Send Input Container */
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+#messageInp {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.btn {
+    background-color: #0078ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005ecb;
+}
+
