@@ -13,6 +13,7 @@ DURATION : 4 WEEKS ( FROM JUNE 10TH , 2025 TO JULY 10TH , 2025 )
 MENTOR : NEELA SANTOSH
 
 INSTRUCTIONS: DEVELOP A REAL-TIME CHAT APPLICATION USING WEBSOCKET OR SOCKET.IO.
+
 DELIVERABLE: A LIVE CHAT APP WITH FRONTEND AND BACKEND INTEGRATION
 
 # 🚀 EchoRoom – Real-Time Chat Application
@@ -66,6 +67,10 @@ Run Two tabs with http://127.0.0.1/5500
 
 Youtube 📷 : 
 https://youtu.be/8Ktum5E7RlE?si=arDQLjNJ9i3f9UPy
+
+# OUTPUT 
+
+![Image](https://github.com/user-attachments/assets/6c63770a-9227-4590-a49e-3c27b5685af8)
 
 📜 License
 MIT License
